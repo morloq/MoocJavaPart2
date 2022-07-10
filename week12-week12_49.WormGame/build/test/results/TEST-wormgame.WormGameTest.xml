@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="15" hostname="SarasLaptop" name="wormgame.WormGameTest" skipped="0" tests="29" time="0.485" timestamp="2022-07-02T17:56:58">
+  <properties>
+    <property name="default.javac.source" value="1.8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="libs.junit_5.src" value="C:\Program Files\TMCBeans\platform\docs\junit-jupiter-api-5.6.0-sources.jar;C:\Program Files\TMCBeans\platform\docs\junit-jupiter-params-5.6.0-sources.jar;C:\Program Files\TMCBeans\platform\docs\junit-jupiter-engine-5.6.0-sources.jar" />
+    <property name="user.language.format" value="en" />
+    <property name="javac.source" value="1.6" />
+    <property name="testng.debug.mode" value="" />
+    <property name="netbeans.user.dir" value="C:\Program Files\TMCBeans\bin" />
+    <property name="java.home" value="C:\Programme\Java\jdk1.8.0_333\jre" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\TMCBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
+    <property name="test.src.dir" value="test" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\TMCBeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="java.endorsed.dirs" value="C:\Programme\Java\jdk1.8.0_333\jre\lib\endorsed" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\TMCBeans\ide\docs\jaxb-api-doc.jar" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="src.dir" value="src" />
+    <property name="ant.file.type.week12_49.WormGame" value="file" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="netbeans.hash.code" value="unique=01735d86a-7515-43c7-8423-7e747bb31b84_3623f403-f2d9-4624-b01c-df8d72dfc4d3" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="have.sources" value="true" />
+    <property name="libs.spring-framework500.classpath" value="C:\Program Files\TMCBeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\TMCBeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-aop-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-aspects-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-beans-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-context-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-context-indexer-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-context-support-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-core-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-expression-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-instrument-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-jcl-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-jdbc-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-jms-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-messaging-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-orm-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-oxm-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-test-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-tx-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-web-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-webflux-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-webmvc-5.2.2.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-5\spring-websocket-5.2.2.RELEASE.jar" />
+    <property name="includes" value="**" />
+    <property name="javac.fork" value="false" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\TMCBeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\policy.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\TMCBeans\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.version" value="1.8.0_333" />
+    <property name="libs.testng.src" value="" />
+    <property name="javac.modulepath" value="" />
+    <property name="javac.debug" value="true" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\TMCBeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="libs.eclipselink.javadoc" value="C:\Program Files\TMCBeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="netbeans.buildnumber" value="1.5.0" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="ant.file.type.week12_49.WormGame-impl" value="file" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="user.name" value="Admin" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="empty.dir" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\empty" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="application.vendor" value="avihavai" />
+    <property name="jdk.home" value="C:\Programme\Java\jdk1.8.0_333" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="netbeans.dirs" value="C:\Program Files\TMCBeans\tmcbeans;C:\Program Files\TMCBeans\extide;C:\Program Files\TMCBeans\harness;C:\Program Files\TMCBeans\ide;C:\Program Files\TMCBeans\java;C:\Program Files\TMCBeans\javafx;C:\Program Files\TMCBeans\nb;C:\Program Files\TMCBeans\webcommon;C:\Program Files\TMCBeans\websvccommon;C:\Program Files\TMCBeans\mavenmodules" />
+    <property name="main.class.available" value="true" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="javadoc.author" value="false" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="user.timezone" value="" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="manifest.available" value="true" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.script" value="" />
+    <property name="path.separator" value=";" />
+    <property name="testng.mode" value="testng" />
+    <property name="version-output" value="java version &quot;1.8" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\TMCBeans\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="file.reference.junit-4.11.jar" value="lib/junit-4.11.jar" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="libs.junit_5.maven-pom" value="" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.spring-framework400.src" value="" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.spring-framework500.src" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner wormgame.WormGameTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\test\results\TEST-wormgame.WormGameTest.xml crashfile=C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\junitvmwatcher1877297631806747318.properties propsfile=C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\junit5490059453727891677.properties" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|SarasLaptop" />
+    <property name="built-jar.properties" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\built-jar.properties" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="ant.file" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build.xml" />
+    <property name="libs.junit_4.src" value="C:\Program Files\TMCBeans\platform\docs\junit-4.12-sources.jar" />
+    <property name="maven.defaultProjectBuilder.disableGlobalModelCache" value="true" />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="junit.available" value="true" />
+    <property name="netbeans.autoupdate.language" value="de" />
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="user.language" value="de" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\TMCBeans\java\modules\ext\eclipselink\javax.persistence-2.1.0.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="file.reference.edu-test-utils.jar" value="lib/edu-test-utils.jar" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="javadoc.private" value="false" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="ant.file.week12_49.WormGame-impl" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\nbproject\build-impl.xml" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\TMCBeans\platform\core\asm-7.2.jar;C:\Program Files\TMCBeans\platform\core\asm-commons-7.2.jar;C:\Program Files\TMCBeans\platform\core\asm-tree-7.2.jar;C:\Program Files\TMCBeans\platform\core\core-base.jar;C:\Program Files\TMCBeans\platform\core\core.jar;C:\Program Files\TMCBeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\TMCBeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\TMCBeans\platform\core\org-openide-filesystems.jar;C:\Program Files\TMCBeans\tmcbeans\core\locale\core_tmcbeans.jar;C:\Program Files\TMCBeans\nb\core\org-netbeans-upgrader.jar" />
+    <property name="platform.active" value="default_platform" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\TMCBeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\TMCBeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|SarasLaptop" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files\TMCBeans\platform\docs\junit-4.12-javadoc.jar" />
+    <property name="endorsed.classpath" value="" />
+    <property name="netbeans.autoupdate.country" value="DE" />
+    <property name="do.mkdist" value="true" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ap.processors.internal" value="" />
+    <property name="do.archive" value="true" />
+    <property name="dist.jar" value="dist/week12_49.WormGame.jar" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.4 compiled on June 19 2018" />
+    <property name="netbeans.home" value="C:\Program Files\TMCBeans\platform" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="user.properties.file" value="C:\Users\Admin\AppData\Roaming\tmcbeans\12.0\build.properties" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\TMCBeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="run.test.classpath" value=":build/classes:lib/edu-test-utils.jar:lib/hamcrest-core-1.3.jar:lib/junit-4.11.jar:build/test/classes" />
+    <property name="do.archive+main.class.available" value="true" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="libs.spring-framework500.maven-pom" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="java.library.path" value="C:\Programme\Java\jdk1.8.0_333\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python39\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\.dotnet\tools;." />
+    <property name="ap.supported.internal" value="true" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="java.class.version" value="52.0" />
+    <property name="jna.boot.library.name" value="jnidispatch-nb" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="basedir" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame" />
+    <property name="javac.test.classpath" value=":build/classes:lib/edu-test-utils.jar:lib/hamcrest-core-1.3.jar:lib/junit-4.11.jar" />
+    <property name="javac.processorpath" value="" />
+    <property name="ant.home" value="C:\Program Files\TMCBeans\extide\ant" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="javac.test.processorpath" value=":build/classes:lib/edu-test-utils.jar:lib/hamcrest-core-1.3.jar:lib/junit-4.11.jar" />
+    <property name="javadoc.preview" value="true" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\TMCBeans\ide\modules\ext\postgresql-42.2.10.jar" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\TMCBeans\platform\modules\ext\junit-4.12.jar" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="build.dir" value="build" />
+    <property name="sun.boot.library.path" value="C:\Programme\Java\jdk1.8.0_333\jre\bin" />
+    <property name="application.title" value="week12_49.WormGame" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="user.variant" value="" />
+    <property name="libs.testng.classpath" value="C:\Program Files\TMCBeans\platform\modules\ext\testng-6.8.1-dist.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\TMCBeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\TMCBeans\platform\docs\testng-6.8.1-javadoc.zip" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="javac.processormodulepath" value="" />
+    <property name="netbeans.productversion" value="Netbeans with TMC 1.5.0" />
+    <property name="libs.hamcrest.classpath" value="C:\Program Files\TMCBeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="ant.project.name" value="week12_49.WormGame" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="libs.spring-framework400.classpath" value="C:\Program Files\TMCBeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\TMCBeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-aop-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-aspects-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-beans-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-context-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-context-support-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-core-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-expression-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-instrument-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-jdbc-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-jms-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-messaging-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-orm-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-oxm-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-test-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-tx-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-web-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-webmvc-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.3.25.RELEASE.jar;C:\Program Files\TMCBeans\java\modules\ext\spring-4\spring-websocket-4.3.25.RELEASE.jar" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\TMCBeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\TMCBeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="work.dir" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame" />
+    <property name="libs.junit_5.classpath" value="C:\Program Files\TMCBeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\TMCBeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\TMCBeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Programme\Java\jdk1.8.0_333\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\Admin\AppData\Roaming\tmcbeans" />
+    <property name="os.version" value="10.0" />
+    <property name="jna.loaded" value="true" />
+    <property name="excludes" value="" />
+    <property name="user.home" value="C:\Users\Admin" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.junit_5.javadoc" value="C:\Program Files\TMCBeans\platform\docs\junit-jupiter-api-5.6.0-javadoc.jar;C:\Program Files\TMCBeans\platform\docs\junit-jupiter-params-5.6.0-javadoc.jar;C:\Program Files\TMCBeans\platform\docs\junit-jupiter-engine-5.6.0-javadoc.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="user.dir" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="application.args" value="" />
+    <property name="debug.test.modulepath" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="java.vm.version" value="25.333-b02" />
+    <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="java.class.path" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\classes;C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\lib\edu-test-utils.jar;C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\lib\hamcrest-core-1.3.jar;C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\lib\junit-4.11.jar;C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build\test\classes;C:\Program Files\TMCBeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\TMCBeans\extide\ant\lib\ant.jar;C:\Program Files\TMCBeans\extide\ant\lib\ant-junit.jar;C:\Program Files\TMCBeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="nb.internal.action.name" value="test" />
+    <property name="os.arch" value="amd64" />
+    <property name="javac.deprecation" value="false" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="dist.dir" value="dist" />
+    <property name="netbeans.user" value="C:\Users\Admin\AppData\Roaming\tmcbeans\12.0" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="platform.java" value="C:\Programme\Java\jdk1.8.0_333\jre/bin/java" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="file.reference.hamcrest-core-1.3.jar" value="lib/hamcrest-core-1.3.jar" />
+    <property name="ant.core.lib" value="C:\Program Files\TMCBeans\extide\ant\lib\ant.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="run.modulepath" value="" />
+    <property name="do.depend" value="false" />
+    <property name="file.separator" value="\" />
+    <property name="java.runtime.version" value="1.8.0_333-b02" />
+    <property name="javac.test.modulepath" value="" />
+    <property name="sun.boot.class.path" value="C:\Programme\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Programme\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Programme\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Programme\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Programme\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Programme\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Programme\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Programme\Java\jdk1.8.0_333\jre\classes" />
+    <property name="debug.test.classpath" value=":build/classes:lib/edu-test-utils.jar:lib/hamcrest-core-1.3.jar:lib/junit-4.11.jar:build/test/classes" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="have.tests" value="true" />
+    <property name="main.class" value="wormgame.Main" />
+    <property name="libs.spring-framework500.javadoc" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="jnidispatch.path" value="C:\Users\Admin\AppData\Local\Temp\jna-63116079\jna7309480506300343225.dll" />
+    <property name="run.test.modulepath" value="" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.javac-api.classpath" value="" />
+    <property name="debug.modulepath" value="" />
+    <property name="user.country" value="DE" />
+    <property name="javadoc.notree" value="false" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="ant.file.week12_49.WormGame" value="C:\Users\Admin\Desktop\mooc\mooc-2013-OOProgrammingWithJava-PART2\week12-week12_49.WormGame\build.xml" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\TMCBeans\java\docs\jaxws-api-doc.zip" />
+    <property name="default.javac.target" value="1.8" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="javac.classpath" value="" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="javac.target" value="1.6" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\TMCBeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.5.2.jar;C:\Program Files\TMCBeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-2.5.2.jar;C:\Program Files\TMCBeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.5.2.jar;C:\Program Files\TMCBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.5.2.jar;C:\Program Files\TMCBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.5.2.jar;C:\Program Files\TMCBeans\java\modules\ext\eclipselink\javax.persistence-2.1.0.jar" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="mkdist.disabled" value="false" />
+  </properties>
+  <testcase classname="wormgame.WormGameTest" name="updatable" time="0.031" />
+  <testcase classname="wormgame.WormGameTest" name="drawingBoardNoticesTheSideLength" time="0.116">
+    <failure message="Do you use Graphics-object&apos;s fill3DRect-method for drawing the worm? Worm should be drawn in drawing board&apos;s paintComponent-method.&#xa;executed code&#xa;WormGame mp = new WormGame(20,10);&#xa;DrawingBoard pa = new DrawingBoard(mp, 20);&#xa;pa.paintComonent(g);&#xa;fill3DRect-calls: 1" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Do you use Graphics-object&apos;s fill3DRect-method for drawing the worm? Worm should be drawn in drawing board&apos;s paintComponent-method.
+executed code
+WormGame mp = new WormGame(20,10);
+DrawingBoard pa = new DrawingBoard(mp, 20);
+pa.paintComonent(g);
+fill3DRect-calls: 1
+	at wormgame.WormGameTest.drawingBoardNoticesTheSideLength(WormGameTest.java:1867)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="keyboardListener" time="0.006" />
+  <testcase classname="wormgame.WormGameTest" name="wormDoesCircle" time="0.0" />
+  <testcase classname="wormgame.WormGameTest" name="isDrawingBoard" time="0.016">
+    <failure message="Do you use Graphics-object&apos;s fill3DRect-method for drawing the worm. There must be one call per each piece of the worm!&#xa;Worm should be drawn in drawing board&apos;s paintComponent-method.&#xa;When executed code&#xa;WormGame mp = new WormGame(20,10);&#xa;mp.actionPerformed(null)&#xa;mp.actionPerformed(null)&#xa;mp.actionPerformed(null)&#xa;DrawingBoard pa = new DrawingBoard(mp, 10);&#xa;pa.paintComonent(g);&#xa;length of the worm is 3 and fill3DRect-calls:  expected:&lt;3&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Do you use Graphics-object&apos;s fill3DRect-method for drawing the worm. There must be one call per each piece of the worm!
+Worm should be drawn in drawing board&apos;s paintComponent-method.
+When executed code
+WormGame mp = new WormGame(20,10);
+mp.actionPerformed(null)
+mp.actionPerformed(null)
+mp.actionPerformed(null)
+DrawingBoard pa = new DrawingBoard(mp, 10);
+pa.paintComonent(g);
+length of the worm is 3 and fill3DRect-calls:  expected:&lt;3&gt; but was:&lt;1&gt;
+	at wormgame.WormGameTest.isDrawingBoard(WormGameTest.java:1748)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="setInitialDelayAndSetDelayCalls" time="0.0" />
+  <testcase classname="wormgame.WormGameTest" name="isWorm" time="0.015">
+    <failure message="Worm m = new Worm(4, 6, Direction.UP, v);&#xa;m.runsInto(new Piece(4,0));&#xa; expected:&lt;false&gt; but was:&lt;true&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Worm m = new Worm(4, 6, Direction.UP, v);
+m.runsInto(new Piece(4,0));
+ expected:&lt;false&gt; but was:&lt;true&gt;
+	at wormgame.WormGameTest.isWorm(WormGameTest.java:682)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="runningIntoItselfQuits1" time="0.0">
+    <failure message="Game should end, meaning method continues() should return false, when worm runs into itself. &#xa;Check that worm cannot run into itself so that it has first moved down and then it moves up where he came from.&#xa;UP&#xa;______&#xa;______&#xa;______&#xa;___h__&#xa;______&#xa;______&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Game should end, meaning method continues() should return false, when worm runs into itself. 
+Check that worm cannot run into itself so that it has first moved down and then it moves up where he came from.
+UP
+______
+______
+______
+___h__
+______
+______
+
+	at wormgame.WormGameTest.runningIntoItselfQuits1(WormGameTest.java:1368)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="runningIntoItselfQuits2" time="0.0">
+    <failure message="Game should end, meaning method continues() should return false, when worm runs into itself. &#xa;LEFT&#xa;__________&#xa;__________&#xa;__________&#xa;__________&#xa;__________&#xa;_____h____&#xa;__________&#xa;__________&#xa;__________&#xa;__________&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Game should end, meaning method continues() should return false, when worm runs into itself. 
+LEFT
+__________
+__________
+__________
+__________
+__________
+_____h____
+__________
+__________
+__________
+__________
+
+	at wormgame.WormGameTest.runningIntoItselfQuits2(WormGameTest.java:1401)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="isWormGame" time="0.0" />
+  <testcase classname="wormgame.WormGameTest" name="actionListenerTest" time="0.0" />
+  <testcase classname="wormgame.WormGameTest" name="eatingAppleGrowsWorm" time="0.0">
+    <failure message="After three moves, number of worm&apos;s pieces was 1, are you sure that worm is created only in the constructor?" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: After three moves, number of worm&apos;s pieces was 1, are you sure that worm is created only in the constructor?
+	at wormgame.WormGameTest.eatingAppleGrowsWorm(WormGameTest.java:1279)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="paintComponentCallsSuperClassMethod" time="0.016">
+    <failure message="Method paintComponent should immediately call superclass&apos; version of the method so first line should be super.paintComponent(g);" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Method paintComponent should immediately call superclass&apos; version of the method so first line should be super.paintComponent(g);
+	at wormgame.WormGameTest.paintComponentCallsSuperClassMethod(WormGameTest.java:2006)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="whenAppleIsntRanIntoOrItIsntEatenOrItsLocationDoesntChange" time="0.0">
+    <failure message="Do you move worm in the WormGame&apos;s method actionPerformed? Do you also add pieces to worm in the first few move-calls?" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Do you move worm in the WormGame&apos;s method actionPerformed? Do you also add pieces to worm in the first few move-calls?
+	at wormgame.WormGameTest.whenAppleIsntRanIntoOrItIsntEatenOrItsLocationDoesntChange(WormGameTest.java:1112)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="newAppleDoesntSpawnOnWorm" time="0.0" />
+  <testcase classname="wormgame.WormGameTest" name="isUserInterface" time="0.085" />
+  <testcase classname="wormgame.WormGameTest" name="updateCallsRepaint" time="0.004" />
+  <testcase classname="wormgame.WormGameTest" name="isInterfacesAndImplementations" time="0.003" />
+  <testcase classname="wormgame.WormGameTest" name="whenAppleIsHitAndEatenAndThenNewAppleIsCreated" time="0.002">
+    <failure message="After two moves, number of worm&apos;s pieces was 1 although it should have been 3, are you sure that worm is created only in the constructor?" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: After two moves, number of worm&apos;s pieces was 1 although it should have been 3, are you sure that worm is created only in the constructor?
+	at wormgame.WormGameTest.whenAppleIsHitAndEatenAndThenNewAppleIsCreated(WormGameTest.java:1149)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="appleDoesntGoOutsideOrOnTheWorm" time="0.023" />
+  <testcase classname="wormgame.WormGameTest" name="hittingBorderQuits1" time="0.002">
+    <failure message="Game should end, meaning method continues() should return false, when worm hits the border. &#xa;DOWN&#xa;____&#xa;____&#xa;__h_&#xa;____&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Game should end, meaning method continues() should return false, when worm hits the border. 
+DOWN
+____
+____
+__h_
+____
+
+	at wormgame.WormGameTest.hittingBorderQuits1(WormGameTest.java:1423)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="hittingBorderQuits2" time="0.001">
+    <failure message="Game should end, meaning method continues() should return false, when worm hits the border. &#xa;RIGHT&#xa;____&#xa;____&#xa;__h_&#xa;____&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Game should end, meaning method continues() should return false, when worm hits the border. 
+RIGHT
+____
+____
+__h_
+____
+
+	at wormgame.WormGameTest.hittingBorderQuits2(WormGameTest.java:1444)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="hittingBorderQuits3" time="0.001">
+    <failure message="Game should end, meaning method continues() should return false, when worm hits the border. &#xa;LEFT&#xa;____&#xa;____&#xa;__h_&#xa;____&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Game should end, meaning method continues() should return false, when worm hits the border. 
+LEFT
+____
+____
+__h_
+____
+
+	at wormgame.WormGameTest.hittingBorderQuits3(WormGameTest.java:1466)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="hittingBorderQuits4" time="0.001">
+    <failure message="Game should end, meaning method continues() should return false, when worm hits the border. &#xa;UP&#xa;____&#xa;____&#xa;__h_&#xa;____&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Game should end, meaning method continues() should return false, when worm hits the border. 
+UP
+____
+____
+__h_
+____
+
+	at wormgame.WormGameTest.hittingBorderQuits4(WormGameTest.java:1488)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="delayChangesWhenGameProgresses" time="0.002">
+    <failure message="Does the game&apos;s update rate speed up when worm grows? Game&apos;s update rate was one update per 1000 milliseconds, even though length of the worm was already 3." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Does the game&apos;s update rate speed up when worm grows? Game&apos;s update rate was one update per 1000 milliseconds, even though length of the worm was already 3.
+	at wormgame.WormGameTest.delayChangesWhenGameProgresses(WormGameTest.java:1520)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="actionListener" time="0.001">
+    <failure message="Do you move worm in the WormGame&apos;s method actionPerformed? Do you also add pieces to worm in the first few move-calls?" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Do you move worm in the WormGame&apos;s method actionPerformed? Do you also add pieces to worm in the first few move-calls?
+	at wormgame.WormGameTest.actionListener(WormGameTest.java:1068)
+</failure>
+  </testcase>
+  <testcase classname="wormgame.WormGameTest" name="wormAlwaysStartsInTheCenter" time="0.002" />
+  <testcase classname="wormgame.WormGameTest" name="isApple" time="0.0" />
+  <testcase classname="wormgame.WormGameTest" name="isPiece" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
