@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/Main.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/criteria/LengthAtLeast.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/GutenbergReader.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/criteria/Not.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/criteria/AtLeastOne.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/criteria/EndsWithQuestionOrExclamationMark.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/criteria/AllLines.java</file>
+            <file>file:/C:/Users/Admin/Desktop/mooc/mooc-2013-OOProgrammingWithJava-PART2/week12-week12_47.FlexibleFilteringCriteria/src/reader/criteria/Both.java</file>
+        </group>
+    </open-files>
+</project-private>
